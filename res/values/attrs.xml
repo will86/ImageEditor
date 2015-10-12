@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="editor">
+        <attr name="background" format="reference"></attr>
+        <attr name="paintWidth" format="dimension|reference"></attr>
+        <attr name="paintColor" format="integer|reference"></attr>
+    </declare-styleable>
+</resources>

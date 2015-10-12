@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:editor="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_resolve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <net.jileniao.imageeditor.view.DeMaskView
+        android:id="@+id/my_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        editor:background="@drawable/bg_ori"
+        editor:paintWidth="30dp" />
+
+</LinearLayout>
