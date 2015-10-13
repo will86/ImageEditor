@@ -135,4 +135,16 @@ public class BaseMaskView extends View {
         }
         return super.onTouchEvent(event);
     }
+
+    public void changeColor(int color) {
+        mPaintCircle.setColor(color);
+    }
+
+    public void changeWidth(int width) {
+        mPaintRect.setStrokeWidth(width);
+    }
+
+    public void changeBackground(Bitmap bitmap) {
+        mBitmapGround = bitmap;
+    }
 }
